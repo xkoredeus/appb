@@ -1,0 +1,62 @@
+@import "mixins";
+@import "fonts";
+@import "common/fonts";
+@import "common/colors";
+@import "common/one-classes";
+@import "common/selections";
+@import "common/states";
+@import "common/section";
+
+html, body {
+  position: relative;
+  font-family: $g-Regular, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: $dark;
+  background-color: $light;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+a {
+  color: $dark;
+
+  &:hover {
+    color: $dark;
+  }
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.svg-sprite {
+  position: absolute;
+  bottom: 0;
+}
+
+.overlay {
+  overflow: hidden;
+
+  &__inner {
+    position: relative;
+  }
+
+  &__image {
+    position: absolute;
+    left: 50%;
+    top: -161px;
+    transform: translateX(-50%);
+  }
+
+  &__content {
+    position: relative;
+  }
+}
