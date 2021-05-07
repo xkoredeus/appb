@@ -778,7 +778,15 @@ a:hover {
   margin-bottom: 18px;
 }
 
+.footer__link:hover, .footer__link:focus {
+  color: #FFFDFD;
+}
+
 .footer__link--dark {
+  color: #89898F;
+}
+
+.footer__link--dark:hover, .footer__link--dark:focus {
   color: #89898F;
 }
 
