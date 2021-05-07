@@ -485,8 +485,18 @@
       margin-bottom: 18px;
     }
 
+    &:hover,
+    &:focus {
+      color: $light;
+    }
+
     &--dark {
       color: $dark3;
+
+      &:hover,
+      &:focus {
+        color: $dark3;
+      }
     }
   }
 
